@@ -1,0 +1,409 @@
+{
+  "Connection": {
+    "Port": "/dev/ttyS1",
+    "Speed": 1000000,
+    "Id": 51
+  },
+  "Layout": [
+    {
+      "Name": "blob00_type",
+      "Path": "root/Processing/ArucoDetector/Aruco00/id",
+      "Type": "uint8",
+      "Register": {
+        "16": "0xff"
+      }
+    },
+    {
+      "Name": "blob00_padding",
+      "Path": "root/Processing/BlobDetector/Blob00/padding",
+      "Type": "uint8",
+      "Register": {
+        "17": "0xff"
+      }
+    },
+    {
+      "Name": "blob00_cx",
+      "Path": "root/Processing/ArucoDetector/Aruco00/x",
+      "Type": "int16",
+      "Register": {
+        "18": "0x00ff",
+        "19": "0xff00"
+      }
+    },
+    {
+      "Name": "blob00_cy",
+      "Path": "root/Processing/ArucoDetector/Aruco00/y",
+      "Type": "int16",
+      "Register": {
+        "20": "0xff",
+        "21": "0xff00"
+      }
+    },
+    {
+      "Name": "blob00_area",
+      "Path": "root/Processing/BlobDetector/Blob00/area",
+      "Type": "uint16",
+      "Register": {
+        "22": "0xff",
+        "23": "0xff00"
+      }
+    },
+    {
+      "Name": "blob00_left",
+      "Path": "root/Processing/BlobDetector/Blob00/left",
+      "Type": "uint16",
+      "Register": {
+        "24": "0xff",
+        "25": "0xff00"
+      }
+    },
+    {
+      "Name": "blob00_right",
+      "Path": "root/Processing/BlobDetector/Blob00/right",
+      "Type": "uint16",
+      "Register": {
+        "26": "0xff",
+        "27": "0xff00"
+      }
+    },
+    {
+      "Name": "blob00_top",
+      "Path": "root/Processing/BlobDetector/Blob00/top",
+      "Type": "uint16",
+      "Register": {
+        "28": "0xff",
+        "29": "0xff00"
+      }
+    },
+    {
+      "Name": "blob00_bottom",
+      "Path": "root/Processing/BlobDetector/Blob00/bottom",
+      "Type": "uint16",
+      "Register": {
+        "30": "0xff",
+        "31": "0xff00"
+      }
+    },
+    {
+      "Name": "blob01_type",
+      "Path": "root/Processing/BlobDetector/Blob01/type",
+      "Type": "uint8",
+      "Register": {
+        "32": "0xff"
+      }
+    },
+    {
+      "Name": "blob01_padding",
+      "Path": "root/Processing/BlobDetector/Blob01/padding",
+      "Type": "uint8",
+      "Register": {
+        "33": "0xff"
+      }
+    },
+    {
+      "Name": "blob01_cx",
+      "Path": "root/Processing/BlobDetector/Blob01/cx",
+      "Type": "uint16",
+      "Register": {
+        "34": "0x00ff",
+        "35": "0xff00"
+      }
+    },
+    {
+      "Name": "blob01_cy",
+      "Path": "root/Processing/BlobDetector/Blob01/cy",
+      "Type": "uint16",
+      "Register": {
+        "36": "0xff",
+        "37": "0xff00"
+      }
+    },
+    {
+      "Name": "blob01_area",
+      "Path": "root/Processing/BlobDetector/Blob01/area",
+      "Type": "uint16",
+      "Register": {
+        "38": "0xff",
+        "39": "0xff00"
+      }
+    }
+    ,
+    {
+      "Name": "blob01_left",
+      "Path": "root/Processing/BlobDetector/Blob01/left",
+      "Type": "uint16",
+      "Register": {
+        "40": "0xff",
+        "41": "0xff00"
+      }
+    },
+    {
+      "Name": "blob01_right",
+      "Path": "root/Processing/BlobDetector/Blob01/right",
+      "Type": "uint16",
+      "Register": {
+        "42": "0xff",
+        "43": "0xff00"
+      }
+    },
+    {
+      "Name": "blob01_top",
+      "Path": "root/Processing/BlobDetector/Blob01/top",
+      "Type": "uint16",
+      "Register": {
+        "44": "0xff",
+        "45": "0xff00"
+      }
+    },
+    {
+      "Name": "blob01_bottom",
+      "Path": "root/Processing/BlobDetector/Blob01/bottom",
+      "Type": "uint16",
+      "Register": {
+        "46": "0xff",
+        "47": "0xff00"
+      }
+    },
+    {
+      "Name": "blob02_type",
+      "Path": "root/Processing/BlobDetector/Blob02/type",
+      "Type": "uint8",
+      "Register": {
+        "48": "0xff"
+      }
+    },
+    {
+      "Name": "blob02_padding",
+      "Path": "root/Processing/BlobDetector/Blob02/padding",
+      "Type": "uint8",
+      "Register": {
+        "49": "0xff"
+      }
+    },
+    {
+      "Name": "blob02_cx",
+      "Path": "root/Processing/BlobDetector/Blob02/cx",
+      "Type": "uint16",
+      "Register": {
+        "50": "0x00ff",
+        "51": "0xff00"
+      }
+    },
+    {
+      "Name": "blob02_cy",
+      "Path": "root/Processing/BlobDetector/Blob02/cy",
+      "Type": "uint16",
+      "Register": {
+        "52": "0xff",
+        "53": "0xff00"
+      }
+    },
+    {
+      "Name": "blob02_area",
+      "Path": "root/Processing/BlobDetector/Blob02/area",
+      "Type": "uint16",
+      "Register": {
+        "54": "0xff",
+        "55": "0xff00"
+      }
+    }
+    ,
+    {
+      "Name": "blob02_left",
+      "Path": "root/Processing/BlobDetector/Blob02/left",
+      "Type": "uint16",
+      "Register": {
+        "56": "0xff",
+        "57": "0xff00"
+      }
+    },
+    {
+      "Name": "blob02_right",
+      "Path": "root/Processing/BlobDetector/Blob02/right",
+      "Type": "uint16",
+      "Register": {
+        "58": "0xff",
+        "59": "0xff00"
+      }
+    },
+    {
+      "Name": "blob02_top",
+      "Path": "root/Processing/BlobDetector/Blob02/top",
+      "Type": "uint16",
+      "Register": {
+        "60": "0xff",
+        "61": "0xff00"
+      }
+    },
+    {
+      "Name": "blob02_bottom",
+      "Path": "root/Processing/BlobDetector/Blob02/bottom",
+      "Type": "uint16",
+      "Register": {
+        "62": "0xff",
+        "63": "0xff00"
+      }
+    },
+    {
+      "Name": "blob03_type",
+      "Path": "root/Processing/BlobDetector/Blob03/type",
+      "Type": "uint8",
+      "Register": {
+        "64": "0xff"
+      }
+    },
+    {
+      "Name": "blob03_padding",
+      "Path": "root/Processing/BlobDetector/Blob03/padding",
+      "Type": "uint8",
+      "Register": {
+        "65": "0xff"
+      }
+    },
+    {
+      "Name": "blob03_cx",
+      "Path": "root/Processing/BlobDetector/Blob03/cx",
+      "Type": "uint16",
+      "Register": {
+        "66": "0x00ff",
+        "67": "0xff00"
+      }
+    },
+    {
+      "Name": "blob03_cy",
+      "Path": "root/Processing/BlobDetector/Blob03/cy",
+      "Type": "uint16",
+      "Register": {
+        "68": "0xff",
+        "69": "0xff00"
+      }
+    },
+    {
+      "Name": "blob03_area",
+      "Path": "root/Processing/BlobDetector/Blob03/area",
+      "Type": "uint16",
+      "Register": {
+        "70": "0xff",
+        "71": "0xff00"
+      }
+    },
+    {
+      "Name": "blob03_left",
+      "Path": "root/Processing/BlobDetector/Blob03/left",
+      "Type": "uint16",
+      "Register": {
+        "72": "0xff",
+        "73": "0xff00"
+      }
+    },
+    {
+      "Name": "blob03_right",
+      "Path": "root/Processing/BlobDetector/Blob03/right",
+      "Type": "uint16",
+      "Register": {
+        "74": "0xff",
+        "75": "0xff00"
+      }
+    },
+    {
+      "Name": "blob03_top",
+      "Path": "root/Processing/BlobDetector/Blob03/top",
+      "Type": "uint16",
+      "Register": {
+        "76": "0xff",
+        "77": "0xff00"
+      }
+    },
+    {
+      "Name": "blob03_bottom",
+      "Path": "root/Processing/BlobDetector/Blob03/bottom",
+      "Type": "uint16",
+      "Register": {
+        "78": "0xff",
+        "79": "0xff00"
+      }
+    },
+    {
+      "Name": "blob04_type",
+      "Path": "root/Processing/BlobDetector/Blob04/type",
+      "Type": "uint8",
+      "Register": {
+        "80": "0xff"
+      }
+    },
+    {
+      "Name": "blob04_padding",
+      "Path": "root/Processing/BlobDetector/Blob04/padding",
+      "Type": "uint8",
+      "Register": {
+        "81": "0xff"
+      }
+    },
+    {
+      "Name": "blob04_cx",
+      "Path": "root/Processing/BlobDetector/Blob04/cx",
+      "Type": "uint16",
+      "Register": {
+        "82": "0x00ff",
+        "83": "0xff00"
+      }
+    },
+    {
+      "Name": "blob04_cy",
+      "Path": "root/Processing/BlobDetector/Blob04/cy",
+      "Type": "uint16",
+      "Register": {
+        "84": "0xff",
+        "85": "0xff00"
+      }
+    },
+    {
+      "Name": "blob04_area",
+      "Path": "root/Processing/BlobDetector/Blob04/area",
+      "Type": "uint16",
+      "Register": {
+        "86": "0xff",
+        "87": "0xff00"
+      }
+    }
+    ,
+    {
+      "Name": "blob04_left",
+      "Path": "root/Processing/BlobDetector/Blob04/left",
+      "Type": "uint16",
+      "Register": {
+        "88": "0xff",
+        "89": "0xff00"
+      }
+    },
+    {
+      "Name": "blob04_right",
+      "Path": "root/Processing/BlobDetector/Blob04/right",
+      "Type": "uint16",
+      "Register": {
+        "90": "0xff",
+        "91": "0xff00"
+      }
+    },
+    {
+      "Name": "blob04_top",
+      "Path": "root/Processing/BlobDetector/Blob04/top",
+      "Type": "uint16",
+      "Register": {
+        "92": "0xff",
+        "93": "0xff00"
+      }
+    },
+    {
+      "Name": "blob04_bottom",
+      "Path": "root/Processing/BlobDetector/Blob04/bottom",
+      "Type": "uint16",
+      "Register": {
+        "94": "0xff",
+        "95": "0xff00"
+      }
+    }
+    
+  ]
+}
+
